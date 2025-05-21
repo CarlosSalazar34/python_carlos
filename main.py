@@ -5,9 +5,7 @@ from twilio.rest import Client
 app = FastAPI()
 
 # Centraliza credenciales en variables globales (puedes usar variables de entorno en producción)
-ACCOUNT_SID = 'AC560614a147e6b6c12cad11ea270b09f2'
-AUTH_TOKEN = '435ee32fbfbc3b43c35bb1364ca9e839'
-SERVICE_SID = 'VA8e3b59a3d899e59d2e0749ae643f1b91'
+
 
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
